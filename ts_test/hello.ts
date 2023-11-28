@@ -6,14 +6,22 @@ if (message) {
     console.log(message);
 }
 
+// Type Inference （型推論）
 var id = 1;
 var email = "test@test.com";
 var isActive = true;
 var none;
 
-// id = "東京"
-// email = 5
-// isActive = "横浜"
+// Type Definition （型定義）
+var id:number = 1;
+var email:string = "test@test.com";
+var isActive:boolean = true;
+var none:any;
 
-none = "YSE";
-none = 5;
+// none = "YSE";
+// none = 5;
+
+console.log(id, typeof id);
+console.log(email, typeof email);
+console.log(isActive, typeof isActive);
+console.log(none, typeof none);

@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-// interface User {
+// export type User = {
 //     id: number;
 //     name: {
 //         first: string;
@@ -9,3 +7,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     email: string;
 //     isActive: boolean;
 // }
+export {};

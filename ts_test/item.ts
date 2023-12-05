@@ -59,5 +59,20 @@ console.log(data)
 function findItem(id: number): Item | undefined {
     return items.find((item) => item.id == id);
 }
-var item = findItem(2);
-console.log(item);
+
+var item = findItem(3);
+if (item == undefined) {
+    console.log("Not found")
+} else {
+    console.log(item);
+}
+
+function purchase(id:number, amount:number) {
+    var item = findItem(id);
+    if (item) {
+        var message = `${item.name}:${amount}個`;
+        console.log(message);
+    }
+}
+
+purchase(1, 5);

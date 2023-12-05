@@ -1,6 +1,6 @@
-import { User } from './type'
-
-var user: User = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var user = {
     id: 1,
     name: {
         first: "Taro",
@@ -8,10 +8,8 @@ var user: User = {
     },
     email: "test@test.com",
     isActive: true,
-}
-
-console.log(user)
-
+};
+console.log(user);
 // var user: {
 //     id: number;
 //     name: {
